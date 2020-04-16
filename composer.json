@@ -1,0 +1,26 @@
+{
+    "name": "rodineiti/mail_notification",
+    "description": "This is a library tha users composer as the basis for generating email notifications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rodinei Developer",
+            "email": "rodineiguitar@gmail.com",
+            "homepage": "https://rdndeveloper.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "6.1.5"
+    },
+    "config": {
+        "vendor-dir": "libs_ext"
+    },
+    "autoload": {
+        "psr-4": {
+            "Notification\\": "src"
+        }
+    }
+}
